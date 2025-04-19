@@ -37,7 +37,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping("/qwq/chat-client")
+@RequestMapping("/client")
 public class QWQChatClientController {
 
 	private static final String DEFAULT_PROMPT = "你好，介绍下你自己！";

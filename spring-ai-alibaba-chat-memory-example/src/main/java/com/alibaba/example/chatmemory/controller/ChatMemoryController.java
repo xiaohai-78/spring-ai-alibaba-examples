@@ -100,7 +100,9 @@ public class ChatMemoryController {
 
 		return chatClient.prompt(prompt).advisors(
 				new MessageChatMemoryAdvisor(new RedisChatMemory(
-						// redis 数据库参数
+						"127.0.0.1",
+						6379,
+						"springaialibaba123456"
 				))
 		).advisors(
 				a -> a

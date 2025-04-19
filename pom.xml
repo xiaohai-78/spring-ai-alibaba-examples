@@ -62,7 +62,7 @@
 		<module>spring-ai-alibaba-chat-example</module>
 		<module>spring-ai-alibaba-agent-example</module>
 		<module>spring-ai-alibaba-image-example</module>
-		<module>spring-ai-alibaba-function-calling-example</module>
+		<module>spring-ai-alibaba-tool-calling-example</module>
 		<module>spring-ai-alibaba-multi-model-example</module>
 		<module>spring-ai-alibaba-observability-example</module>
 		<module>spring-ai-alibaba-prompt-example</module>
@@ -173,6 +173,14 @@
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
 		</repository>
 		<repository>
 			<id>aliyunmaven</id>
